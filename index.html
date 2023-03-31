@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card One</h3>
+                <p>3D technology is transforming the way we create, communicate and collaborate</p>
+                <a href="#">Read More </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two </h3>
+                <p>VR and AR are two technologies that create immersive and interactive experiences for users. VR stands for virtual reality, which simulates a realistic or fictional environment using a headset and controllers</p>
+                <a href="#">Read More </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card Three</h3>
+                <p>Visual poetry can take many forms, such as collage, typography, calligraphy, concrete poetry, or digital media. Visual poetry challenges the reader to engage . <br> Aperiam, sequi repellat!</p>
+                <a href="#"> Read More </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+    });
+</script>
+
+</html>
